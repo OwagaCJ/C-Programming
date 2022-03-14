@@ -9,13 +9,22 @@
 int main(void)
 
 {
-	int i;
 	int n;
 
-	for (i = n - 1; i > 0; i--)
+	for (n = 48; n <= 97; n++)
 	{
-		putchar(i);
+		putchar(n);
+	if (n == 57)
+	{
+		break;
 	}
 
-	return (0);
+		putchar(',');
+
+		putchar(' ');
+	}
+
+		putchar('\n');
+
+return (0);
 }
