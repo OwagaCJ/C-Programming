@@ -24,18 +24,18 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("The number is greater than o\n");
+		printf("the number is greater than 0: is positive\n");
 	}
 
 	else if (n == 0)
 	{
-		printf("The number is equal to 0\n");
+		printf("the number is 0: is zero\n");
 	}
 
 
 	else
 	{
-		printf("The number is less than o");
+		printf("The number is less than 0: is negative");
 	}
 
 	return (0);
