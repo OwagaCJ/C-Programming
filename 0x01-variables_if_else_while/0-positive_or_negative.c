@@ -19,23 +19,21 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	printf("The number n is : %d\n", n);
-
 
 	if (n > 0)
 	{
-		printf("the number is greater than 0: is positive\n");
+		printf("%d is positive\n", n);
 	}
 
 	else if (n == 0)
 	{
-		printf("the number is 0: is zero\n");
+		printf("%d is zero\n", n);
 	}
 
 
 	else
 	{
-		printf("The number is less than 0: is negative");
+		printf("%d is negative", n);
 	}
 
 	return (0);
