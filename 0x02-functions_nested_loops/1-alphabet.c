@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet - function that prints lowercase letters followed by new line
@@ -10,7 +10,7 @@ void print_alphabet(void)
 
 	{
 
-	char c;
+	char c = 'a';
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
