@@ -13,7 +13,7 @@ int _islower(int c)
 
 	int i = 0;
 
-	if (lower > 'a' || lower < 'z')
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
 		if (lower == c)
 			i = 1;
