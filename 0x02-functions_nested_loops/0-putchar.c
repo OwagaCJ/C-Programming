@@ -9,14 +9,13 @@
 int main(void)
 
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char *s = "_putchar";
+
+	while (*s != '\0')
+	(
+		_putchar(*s)
+	);
+	_putchar('\n');
 
 	return (0);
 }
