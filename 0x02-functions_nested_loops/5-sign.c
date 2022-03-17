@@ -2,7 +2,7 @@
 
 /**
  *  print_sign - prints sign of a number
- *  @n - the number printed
+ *  @n: the number printed
  *  Return: 1 for +ve value, 0 for 0 and -1 for -ve value
  */
 
