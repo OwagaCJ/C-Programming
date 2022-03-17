@@ -2,24 +2,19 @@
 
 /**
  * main - print _putchar followed by new line
- * Return: 0 (Success)
+ * Return: 0
  */
 
 int main(void)
-
 {
-
-	char s[8] = "_putchar";
-	int i = 0;
-
-	while (i < 8)
-	{
-		_putchar(s[8]);
-		++i;
-	}
-
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
