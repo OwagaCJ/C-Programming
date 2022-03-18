@@ -3,29 +3,24 @@
 #include <stdio.h>
 
 /**
-* main - test positive or negative value
+* positive_or_negative - test positive or negative value
+* @n: value tested
 * Return: 0
 */
 
-int main(void)
+void positive_or_negative(int n)
 {
-	int j;
 
-	srand(time(0));
-	j = rand() - RAND_MAX / 2;
-
-	if (j > 0)
+	if (n > 0)
 	{
-		printf("%d is positive\n", j);
+		printf("%d is positive\n", n);
 	}
-	else if (j == 0)
+	else if (n == 0)
 	{
-		printf("%d is zero\n", j);
+		printf("%d is zero\n", n);
 	}
-	else if (j < 0)
+	else if (n < 0)
 	{
-		printf("%d is negative\n", j);
+		printf("%d is negative\n", n);
 	}
-
-return (0);
 }
