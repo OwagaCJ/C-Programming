@@ -21,5 +21,10 @@ int main(int argc, char *argv[])
 
 		printf("product = %d\n", mul);
 	}
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
 	return (0);
 }
