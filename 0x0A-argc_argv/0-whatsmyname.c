@@ -16,5 +16,5 @@ int main(int argc, char *argv[])
 	{
 		printf("program name = %s\n", argv[i]);
 	}
-	return (0);
+	return (i);
 }
