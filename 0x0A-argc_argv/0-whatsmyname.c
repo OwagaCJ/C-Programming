@@ -10,7 +10,7 @@
 
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("program name = %s\n", *argv);
+	printf("%s\n", *argv);
 
 	return (0);
 }
