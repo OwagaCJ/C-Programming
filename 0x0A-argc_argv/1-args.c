@@ -9,11 +9,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, sum;
+	(void) argv;
 
-	sum = sum + argc
-	for (i = )
-
-	printf("Number of argunemts = %d\n", );
+	printf("Number of argunemts = %d\n", argc - 1);
 	return (0);
 }
