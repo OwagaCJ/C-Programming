@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 
 		mul = a * b;
 
-		printf("product = %d\n", mul);
+		printf("%d\n", mul);
 	}
 	else
 	{
