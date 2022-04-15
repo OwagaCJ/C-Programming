@@ -1,25 +1,9 @@
 #include "variadic_functions.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-
-int main(void)
-
-{
-	print_strings(", ", 2, "Jay", "Django");
-
-	return (0);
-}
-
-#include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
 
  /**
-  * print_strings - prints strings
+  * print_strings - the function prints strings
   * @separator: separator between strings
   * @n: number of arguments
   */
